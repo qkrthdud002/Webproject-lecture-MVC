@@ -33,4 +33,5 @@ public class OopPracticeApplicationTests {
 				.hasMessage("비밀번호는 최소 8자 이상 12자 이하여야 한다.");
 	}
 
+
 }
