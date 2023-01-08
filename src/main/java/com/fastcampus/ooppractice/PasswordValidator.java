@@ -8,7 +8,6 @@ public class PasswordValidator {
 
         // 올바르지 않게 짬.
         int length = password.length();
-        
         if (length < 8 || length > 12) {
             throw new IllegalArgumentException(WRONG_PASSWORD_LENGTH_EXCEPTION_MESSAGE);
         }
